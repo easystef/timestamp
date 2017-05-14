@@ -1,3 +1,9 @@
+/* TODO
+  1. Better check if it's a unix date
+  2. Return null if not a natural language date or a unix date
+*/
+
+
 var express = require("express");
 
 var app = express();
