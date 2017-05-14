@@ -15,8 +15,6 @@ app.get('/:inputDate', function (req, res) {
     unix = Date.parse(req.params.inputDate) / 1000;
     natural = req.params.inputDate;
     
-  // TODO different format for natural language date  
-    
   } else {
      
     // If unix date ...
